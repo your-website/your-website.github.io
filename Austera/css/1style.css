@@ -1,0 +1,110 @@
+.navbar {
+	background-color: hsl(0, 0%, 0%);
+}
+
+.navbar-nav a {
+	color: hsl(0, 100%, 100%);
+	margin-right: 2rem;
+}
+
+.navbar-collapse a:hover {
+	color: rgb(54, 177, 229);
+}
+
+.fa-folder-minus {
+	color: hsl(0, 100%, 100%);
+} 
+
+.btn-primary {
+	background-color: rgb(54, 177, 229);
+}
+
+.btn-primary:hover {
+	background-color: rgb(54, 177, 300);
+}
+
+.toptop {
+	height: 970px;
+
+	color: hsl(0, 100%, 100%);
+}
+
+h1 {
+	font-size: 4rem;
+}
+
+h2 {
+	margin-top: 2rem;
+	font-size: 1.4rem;
+}
+
+.Austera {
+	color: rgb(54, 177, 229);
+}
+
+header {
+	background-image: url(../img/back-header.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: cover cover;
+
+	height: 970px;
+}
+
+.ourSrvice h3 {
+	padding-top: 3rem;
+}
+
+.ourSrvice p {
+	padding-top: 1rem;
+}
+
+.main-back {
+	height: 2141px;
+	background-image: url(../img/back-main.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: cover cover;
+}
+
+.desktop .col-12 {
+	padding-bottom: 200px;
+}
+
+.marginMain {
+	height: 200px;
+}
+
+.contactWithUs {
+	height: 700px;
+	background-image: url(../img/footer-back.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: cover cover;
+	color: white;
+}
+
+.col-2 img {
+	width: 45px;
+	height: 45px;
+}
+
+footer {
+	height: 150px;
+	background-color: hsl(0, 0%, 0%);
+	color: hsl(0, 100%, 100%);
+}
+
+.backgroundNone {
+	background: none;
+	border: 0.5px solid hsl(0, 100%, 100%, 0.5);
+	border-radius: none;
+}
+
+.backgroundNone:focus {
+	background: none;
+}
+
+form {
+	margin-top: 40%;
+}

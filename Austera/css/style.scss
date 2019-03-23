@@ -1,0 +1,222 @@
+$colMain : rgb(46, 186, 238);
+$colHalfOne : hsl(0, 100%, 100%);
+$colHalfTwo : hsl(0, 0%, 0%);
+$fonts : Montserrat, sans-serif;
+$fontSizing : 17px;
+
+/*ALL*/
+
+body {
+	font-family: $fonts;
+	color: $colHalfTwo;
+	font-size: $fontSizing;
+}
+
+span {
+	color: $colMain;
+}
+
+h1 {
+	font-size: 4rem;
+	font-weight: 700;
+}
+
+h2 {
+	font-size: 2.4rem;
+	font-weight: 500;
+}
+
+h3 {
+}
+
+h4 {
+	font-weight: 500;
+	padding: 1.7rem 0 0.7rem 0;
+}
+
+p {
+	color: rgb(135, 135, 135);
+	font-size: 0.8rem;
+	text-align: justify;
+}
+
+.btn-primary {
+	background-color: $colMain;
+	border: none;
+	font-weight: 700;
+}
+
+/*HEADER*/
+
+header {
+	background-image: url(../img/back-header.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: cover cover;
+	height: 970px;
+	
+	h1, h2 {
+		color: $colHalfOne;
+	}
+
+	p {
+		color: $colHalfOne;
+		font-size: 1.3rem;
+		text-align: center;
+	}
+}
+
+.navbar {
+	background-color: $colHalfTwo;
+	a {
+		color: $colHalfOne;
+		margin-right: 2rem;
+	}
+	i {
+		color: $colHalfOne;
+	}
+}
+
+.navbar-collapse a:hover {
+	color: $colMain;
+}
+
+/*MAIN */
+
+main {
+	p {
+		padding-top: 1.3rem;
+	}
+}
+
+.mainBack {
+	height: 1688px;
+	background-image: url(../img/back-main.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: cover cover;
+}
+
+.ourServiceColor {
+	margin-top: 5rem;
+
+	h3 {
+		color: $colHalfOne;
+	}
+
+	p {
+		color: $colHalfOne;
+	}
+
+	.btn-primary {
+	background-color: $colHalfOne;
+	color: $colMain;
+	}
+}
+
+.ourTeam {
+	p {
+		text-align: center;
+	}
+}
+
+.paddingNone {
+	padding: 0;
+}
+
+.card:hover {
+	opacity: 0.8;
+}
+
+.checkOur {
+		.btn {
+			margin-bottom: 4rem;
+		}
+		p {
+			text-align: center;
+		}
+}
+
+.contactWithUs {
+	background-image: url(../img/footer-back.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: cover cover;
+	height: 750px;
+		h2 {
+			font-weight: 700;
+			font-size: 3.6rem;
+			color: $colHalfOne;
+			padding-bottom: 2rem;
+		}
+		p {
+			font-size: 1rem;
+			font-weight: 500;
+			margin: 0;
+			padding: 0;
+		}
+
+		.numberPhone {
+			font-size: 1.7rem;
+			padding-top: 1rem;
+		}
+
+		.col-md-6 {
+			height: 400px;
+		}
+}
+
+.DOEL {
+	height: 90px;
+}
+
+.jumbotron {
+	background: white;
+	width: 70%;
+	margin: 0 0 0 5%;
+	h2 {
+	font-weight: 500;
+	font-size: 4rem;
+	}
+	p {
+		font-size: 1rem;
+	}
+}
+
+.backgroundNone {
+	background: none;
+	border: 0.5px solid hsl(0, 100%, 100%);
+	border-radius: none;
+	&:hover {
+		background: none;
+	}
+	&:focus {
+		background: none;
+	}
+}
+
+/*FOOTER*/
+
+footer {
+	height: 150px;
+	background-color: hsl(0, 0%, 0%);
+	color: hsl(0, 100%, 100%);
+}
+
+@media (max-width: 766px) {
+	.contactWithUs {
+		height: 1000px;
+	}
+}
+
+@media (max-width: 457px) {
+	.contactWithUs {
+		height: 1200px;
+	}
+}
+
+@media (max-width: 299px) {
+	.contactWithUs {
+		height: 1500px;
+	}
+}

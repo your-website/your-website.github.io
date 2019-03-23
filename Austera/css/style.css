@@ -1,0 +1,196 @@
+/*ALL*/
+body {
+  font-family: Montserrat, sans-serif;
+  color: black;
+  font-size: 17px;
+}
+
+span {
+  color: #2ebaee;
+}
+
+h1 {
+  font-size: 4rem;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 2.4rem;
+  font-weight: 500;
+}
+
+h4 {
+  font-weight: 500;
+  padding: 1.7rem 0 0.7rem 0;
+}
+
+p {
+  color: #878787;
+  font-size: 0.8rem;
+  text-align: justify;
+}
+
+.btn-primary {
+  background-color: #2ebaee;
+  border: none;
+  font-weight: 700;
+}
+
+/*HEADER*/
+header {
+  background-image: url(../img/back-header.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: cover cover;
+  height: 970px;
+}
+header h1, header h2 {
+  color: white;
+}
+header p {
+  color: white;
+  font-size: 1.3rem;
+  text-align: center;
+}
+
+.navbar {
+  background-color: black;
+}
+.navbar a {
+  color: white;
+  margin-right: 2rem;
+}
+.navbar i {
+  color: white;
+}
+
+.navbar-collapse a:hover {
+  color: #2ebaee;
+}
+
+/*MAIN */
+main p {
+  padding-top: 1.3rem;
+}
+
+.mainBack {
+  height: 1688px;
+  background-image: url(../img/back-main.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: cover cover;
+}
+
+.ourServiceColor {
+  margin-top: 5rem;
+}
+.ourServiceColor h3 {
+  color: white;
+}
+.ourServiceColor p {
+  color: white;
+}
+.ourServiceColor .btn-primary {
+  background-color: white;
+  color: #2ebaee;
+}
+
+.ourTeam p {
+  text-align: center;
+}
+
+.paddingNone {
+  padding: 0;
+}
+
+.card:hover {
+  opacity: 0.8;
+}
+
+.checkOur .btn {
+  margin-bottom: 4rem;
+}
+.checkOur p {
+  text-align: center;
+}
+
+.contactWithUs {
+  background-image: url(../img/footer-back.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: cover cover;
+  height: 750px;
+}
+.contactWithUs h2 {
+  font-weight: 700;
+  font-size: 3.6rem;
+  color: white;
+  padding-bottom: 2rem;
+}
+.contactWithUs p {
+  font-size: 1rem;
+  font-weight: 500;
+  margin: 0;
+  padding: 0;
+}
+.contactWithUs .numberPhone {
+  font-size: 1.7rem;
+  padding-top: 1rem;
+}
+.contactWithUs .col-md-6 {
+  height: 400px;
+}
+
+.DOEL {
+  height: 90px;
+}
+
+.jumbotron {
+  background: white;
+  width: 70%;
+  margin: 0 0 0 5%;
+}
+.jumbotron h2 {
+  font-weight: 500;
+  font-size: 4rem;
+}
+.jumbotron p {
+  font-size: 1rem;
+}
+
+.backgroundNone {
+  background: none;
+  border: 0.5px solid white;
+  border-radius: none;
+}
+.backgroundNone:hover {
+  background: none;
+}
+.backgroundNone:focus {
+  background: none;
+}
+
+/*FOOTER*/
+footer {
+  height: 150px;
+  background-color: black;
+  color: white;
+}
+
+@media (max-width: 766px) {
+  .contactWithUs {
+    height: 1000px;
+  }
+}
+@media (max-width: 457px) {
+  .contactWithUs {
+    height: 1200px;
+  }
+}
+@media (max-width: 299px) {
+  .contactWithUs {
+    height: 1500px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
