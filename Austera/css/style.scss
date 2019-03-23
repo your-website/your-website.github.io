@@ -83,6 +83,12 @@ header {
 	color: $colMain;
 }
 
+.heightHeaderPictures {
+		img {
+			height: 65px;
+		}
+}
+
 /*MAIN */
 
 main {
@@ -162,9 +168,6 @@ main {
 			padding-top: 1rem;
 		}
 
-		.col-md-6 {
-			height: 400px;
-		}
 }
 
 .DOEL {
@@ -205,23 +208,6 @@ footer {
 	color: hsl(0, 100%, 100%);
 }
 
-@media (max-width: 766px) {
-	.contactWithUs {
-		height: 1000px;
-	}
-}
-
-@media (max-width: 457px) {
-	.contactWithUs {
-		height: 1200px;
-	}
-}
-
-@media (max-width: 299px) {
-	.contactWithUs {
-		height: 1500px;
-	}
-}
 
 @media (max-width: 980px) {
 	* {
