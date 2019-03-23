@@ -1,0 +1,240 @@
+$fonts : 'Montserrat', sans-serif;
+$colorSpan : rgb(191, 171, 147);
+$colorHover : hsl(28, 5%, 43%);
+
+body {
+	font-family: $fonts;
+}
+
+button {
+	background-color: hsl(28, 15%, 53%);
+	border: none;
+	color: white;
+	font-weight: 500;
+	font-size: 0.8rem;
+	letter-spacing: 1px;
+	width: 150px;
+	height: 50px;
+	border-bottom: 3px solid $colorHover;
+		&:hover {
+			background-color: hsl(28, 15%, 33%);
+		}
+}
+
+.buttonOurLatest {
+	width: 120px;
+	height: 35px;
+	margin-bottom: 10px;
+	font-weight: 400;
+	background: none;
+	border: 1px solid rgb(140, 140, 140);
+	color: rgb(140, 140, 140);
+		&:hover {
+			background: $colorHover;
+			color: white;
+		}
+}
+
+span .colorSpan {
+	color: $colorSpan;
+	font-size: 60px;
+}
+
+.colorFooterSpan {
+	color: white;
+}
+
+.colorFooterSpanTeg {
+	color: skyblue;
+}
+
+p {
+	color: rgb(140, 140, 140);
+}
+
+h2 {
+	margin-top: 70px;
+	margin-bottom: 23px;
+}
+
+a {
+	color: $colorHover;
+}
+
+a:hover {
+	text-decoration: none;
+	color: $colorHover;
+	font-weight: 700;
+}
+
+.fa-arrow-alt-circle-right, .fa-arrow-alt-circle-left  {
+	color: $colorHover;
+}
+
+.colorHover:hover {
+
+		h3, p {
+			color: rgb(199, 178, 153);
+		}
+		hr {
+			background-color: rgb(199, 178, 153);
+		}
+}
+
+hr {
+	background: rgb(140, 140, 140);
+}
+
+.carousel-inner {
+		img {
+		position: absolute;
+	    top:50%;
+	    left:50%;
+	    transform:translate(-50%,-50%);
+	    width:100vw;
+	    height:100vh;
+	    object-fit:cover;
+		}
+		.carousel-item {
+		position: relative;
+	    overflow:hidden;
+	    width:100vw;
+	    height:100vh;
+		}
+}
+
+.carousel-indicators li {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  margin: 3px;
+  text-indent: -999px;
+  cursor: pointer;
+  background-color: hsl(240, 0%, 58%);
+  border: none;
+  border-radius: 10px;
+}
+
+.title {
+	position: absolute;
+	width: 100%;
+	margin: 40vh auto 20vw;
+	z-index: 999;
+	text-align: center;
+		h1, h2, p {
+			color: white;
+		}
+}
+
+.ourServices {
+		h3 {
+			height: 80px;
+		}
+		img {
+			height: 44px;
+		}
+}
+
+.multiperpose {
+	background: linear-gradient(to left, rgb(78, 52, 39), rgb(33, 37, 25));
+	color: white;
+}
+
+.card {
+		img {
+			height: 250px;
+		}
+}
+
+.card-text {
+	background-color: black;
+	height: 59px;
+	width: 48px;
+		p {
+			margin: 7px;
+		}
+}
+
+.card-body {
+	z-index: 110;
+}
+
+.card:hover {
+	background-color: brown;
+	border: none;
+		.card-text {
+			background-color: grey;
+		}
+		h3, a {
+			color: white;
+		}
+		p {
+			color: black;
+		}
+}
+
+.footerBg {
+	background-image: url(../img/footer-bg.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: cover cover;
+	height: 480px;
+}
+
+.footerBlackColor {
+	background-color: rgb(25, 25, 25);
+		.imgFooter {
+			width: 120px;
+			height: 80px;
+			margin-top: 10px;
+		}
+}
+
+.footerEnd {
+	background-color: black;
+	height: 250px;
+}
+
+#carousel {
+	width: 70%;
+	height: 480px;
+	position:relative;
+	background:#FFF;
+	margin: 36px auto auto auto;
+}
+
+.stringAnalitic {
+		hr {
+			background-color: white;
+			width: 20%;
+		}
+		h4 {
+			color: $colorHover;
+			font-size: 1rem;
+		}
+		h3 {
+			margin-top: 20px;
+		}
+}
+
+.footerHeight {
+	height: 100px;
+}
+
+.columnFooter {
+	height: 180px;
+	border-bottom: 2px solid rgb(37, 37, 37);
+		p {
+			margin-top: 10px;
+		}
+
+}
+
+.columnFooter:hover {
+	p {
+		color: rgb(115, 103, 90);
+	}
+	.numbersFooter {
+		color: white;
+	}
+}
