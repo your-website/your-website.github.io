@@ -17,8 +17,11 @@ span {
 }
 
 h1 {
-	font-size: 4rem;
+	font-size: 3rem;
 	font-weight: 700;
+	 span {
+	 	font-size: 4rem;
+	 }
 }
 
 h2 {
@@ -42,7 +45,6 @@ p {
 
 .btn-primary {
 	background-color: $colMain;
-	border: none;
 	font-weight: 700;
 }
 
@@ -145,19 +147,18 @@ main {
 	height: 750px;
 		h2 {
 			font-weight: 700;
-			font-size: 3.6rem;
 			color: $colHalfOne;
 			padding-bottom: 2rem;
 		}
 		p {
-			font-size: 1rem;
+			font-size: 0.8rem;
 			font-weight: 500;
 			margin: 0;
 			padding: 0;
 		}
 
 		.numberPhone {
-			font-size: 1.7rem;
+			font-size: 1.2rem;
 			padding-top: 1rem;
 		}
 
@@ -195,6 +196,7 @@ main {
 	}
 }
 
+
 /*FOOTER*/
 
 footer {
@@ -218,5 +220,11 @@ footer {
 @media (max-width: 299px) {
 	.contactWithUs {
 		height: 1500px;
+	}
+}
+
+@media (max-width: 980px) {
+	* {
+		font-size: 14px;
 	}
 }
