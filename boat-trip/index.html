@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Сайт морских путешествий">
+    <meta name="keywords" content="путешествия, отдых, море">
+    <meta name="author" lang="eu" content="Roman">
+    <link rel="icon" href="img/logo.png" width="16px" height="16px">
+    <title>Морские путешествия</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="page">
+        <header class="header header_background-image">
+            <nav class="header__navigation">
+                <div class="navigation__burger">
+                    <div class="burger__line-one"></div>
+                    <div class="burger__line-two"></div>
+                    <div class="burger__line-three"></div>
+                </div>
+
+                <ul class="navigation__list">
+                    <li class="navigation__dropdown-list navigation__dropdown-list_personal-account">Личный кабинет <span class="arrow-down">&#9660;</span>
+                        <ul class="dropdown-list__personal-account-hidden">
+                            <li class="dropdown-list__list">
+                                <a class="dropdown-list__hidden-link" href="#">Войти</a>
+                            </li>
+                            <li class="dropdown-list__list">
+                                <a class="dropdown-list__hidden-link" href="#">Зарегестрироваться</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="navigation__dropdown-list navigation__dropdown-list_currency">Рубль <span class="arrow-down">&#9660;</span>
+                        <ul class="dropdown-list__currency-account-hidden">
+                            <li class="dropdown-list__list">
+                                <a class="dropdown-list__hidden-link" href="#">Euro</a>
+                            </li>
+                            <li class="dropdown-list__list">
+                                <a class="dropdown-list__hidden-link" href="#">Dollars</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="navigation__dropdown-list navigation__dropdown-list_language">Ru <span class="arrow-down">&#9660;</span>
+                        <ul class="dropdown-list__language-hidden">
+                            <li class="dropdown-list__list">
+                                <a class="dropdown-list__hidden-link" href="#">En</a>
+                            </li>
+                            <li class="dropdown-list__list">
+                                <a class="dropdown-list__hidden-link" href="#">Fr</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="navigation__phone-support">
+                        <a class="navigation__phone" href="tel:88005006105">8 800 500-61-05</a>
+                        <p class="navigation__phone-paragraph">Круглосуточная поддержка</p>
+                    </li>
+                </ul>
+
+                <ul class="navigation__burger-hidden">
+                    <li class="burger-hidden__list">
+                        <a class="burger-hidden__link" href="#">Морские прогулки</a>
+                    </li>
+                    <li class="burger-hidden__list">
+                        <a class="burger-hidden__link" href="#">Каталог круизов</a>
+                    </li>
+                    <li class="burger-hidden__list">
+                        <a class="burger-hidden__link" href="#">Контакты</a>
+                    </li>
+                </ul>
+
+                
+
+            </nav>
+
+            <div class="logo header__logo header__logo_image"></div>
+            <h1 class="header__title header__title_style-text">
+                Морские прогулки <br>
+                ПО ЧЕРНОМУ МОРЮ
+            </h1>
+            <button class="button button_style header__button">Выбрать круиз</button>
+            <div class="header__dotted-line header__dotted-line_image"></div>
+        </header>
+
+        <main>
+            <section class="main">
+                <h2 class="main__title main__title_style-text">Каталог круизов</h2>
+                <p class="main__subtitle main__subtitle-style-text">Сортировать круизы по 
+                    <a class="main__link-price" href="#"><i>цене</i><span class="arrow-down"> &#9660;</span></a>
+                </p>
+
+                <div class="main__card">
+                    <div class="card__columns card__column-left-top">
+                        <div class="card__sale">
+                            <h3 class="sale__title">ХИТ <br> ПРОДАЖ</h3>
+                        </div>
+                        <img class="card__image card__column-left-top_image" src="img/main-1.jpg" alt="Морской круиз в Анапу">
+                        <a class="card__title" href="#">Морской круиз в Анапу <span class="arrow-right">&#9658;</span></a>
+                        <p class="card__subtitle">
+                            <span class="card-span-subtitle">Маршрут:</span> Сочи-Лазаревское-Геленджик-Анапа <br>
+                            <span class="card-span-subtitle">Продолжительность:</span> 10 ч. 0 мин.
+                        </p>
+                        <p class="card__price">49 000 руб.</p>
+                    </div>
+
+                    <div class="card__columns card__column-right-top">
+                        <div class="card__column-top">
+                                <div class="card__sale card__sale_red">
+                                    <h3 class="sale__title sale__title_margin">АКЦИЯ</h3>
+                                </div>
+                            <img class="card__image card__column-right-top_image" src="img/main-2.jpg" alt="Сочи Адлер">
+                            <a class="card__title" href="#">Обзорная морская прогулка с экскурсией 
+                                <span class="arrow-right">&#9658;</span>
+                            </a>
+                            <p class="card__subtitle">
+                                <span class="card-span-subtitle">Маршрут:</span> Сочи-Адлер-Сочи (без высадки) <br>
+                                <span class="card-span-subtitle">Продолжительность:</span> 1 ч. 0 мин.
+                            </p>
+                            <p class="card__price">5 000 руб. <span class="cross-out-price">15000 руб.</span></p>
+                        </div>
+                        <div class="card__columns card__column-bottom">
+                                <div class="card__sale  card__sale_red">
+                                    <h3 class="sale__title">СКИДКА <br> 30%</h3>
+                                </div>
+                            <img class="card__image card__column-right-top-bottom_image" src="img/main-3.jpg" alt="Сочи Туапсе Геленджик">
+                            <a class="card__title" href="#">Морская прогулка в Геленджик <span class="arrow-right">&#9658;</span></a>
+                            <p class="card__subtitle">
+                                <span class="card-span-subtitle">Маршрут:</span> Сочи-Туапсе-Геленджик <br>
+                                <span class="card-span-subtitle">Продолжительность:</span> 12 ч. 30 мин.
+                            </p>
+                            <p class="card__price">7 000 руб. <span class="cross-out-price">10000 руб.</span></p>
+                        </div>
+                    </div>
+
+                    <div class="card__columns card__column-left-bottom">
+                        <img class="card__image card__column-left-bottom_image" src="img/main-4.jpg" alt="Новороссийск">
+                        <a class="card__title" href="#">Морской круиз в Новороссийск <span class="arrow-right">&#9658;</span></a>
+                        <p class="card__subtitle">
+                            <span class="card-span-subtitle">Маршрут:</span> Сочи-Геленджик-Новороссйиск-Геленджик-Сочи <br>
+                            <span class="card-span-subtitle">Продолжительность:</span> 13 ч. 0 мин.
+                        </p>
+                        <p class="card__price">14 800 руб.</p>
+                    </div>
+
+                    <div class="card__columns card__column-right-bottom">
+                        <img class="card__image card__column-right-bottom_image" src="img/main-5.jpg" alt="Абрау-Дюрсо">
+                        <a class="card__title" href="#">Морская прогулка в Абрау-Дюрсо <span class="arrow-right">&#9658;</span></a>
+                        <p class="card__subtitle">
+                            <span class="card-span-subtitle">Маршрут:</span> Сочи-Абрау-Дюрсо <br>
+                            <span class="card-span-subtitle">Продолжительность:</span> 11 ч. 0 мин.
+                        </p>
+                        <p class="card__price">14 800 руб.</p>
+                    </div>
+                </div>
+
+                <button class="button button_style main__button">Больше круизов <span class="arrow-down">&#9660;</span></button>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <div class="footer__left-footer">
+                <div class="left-footer__contacts-footer">
+                    <a class="left-footer__link" href="#">Вход для партнеров</a>
+                    <a class="left-footer__link" href="#">О компании</a>
+                    <a class="left-footer__link" href="#">Контакты</a>
+                </div>
+                <div class="left-footer__social">
+                    <p class="left-footer__paragraph">Будь на связи:</p>
+                    <a class="left-footer__icons" href="#"><i class="left-footer__icons fab fa-vk"></i></a>
+                    <a class="left-footer__icons" href="#"><i class="left-footer__icons fab fa-odnoklassniki"></i></a>
+                    <a class="left-footer__icons" href="#"><i class="left-footer__icons fab fa-youtube"></i></i></a>
+                    <a class="left-footer__icons" href="#"><i class="left-footer__icons fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="footer__right-footer">
+                <a class="right-footer__phone-number" href="tel:88005006105">8 800 500-61-05</a>
+                <p class="right-footer__support">Круглосуточная поддержка</p>
+                <p class="right-footer__copyright">&#169; 2016 ООО "Городские круизы"</p>
+            </div>
+        </footer>
+    </div>
+
+    <script src="js/js.js"></script>
+</body>
+</html>
