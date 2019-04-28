@@ -750,6 +750,11 @@
 }
 
 @media screen and (max-width: 580px) {
+
+    .navigation__dropdown-list_language {
+        margin-left: 14px;
+    }
+
     .header__title::first-line {
         font-size: 25px;
     }
@@ -809,9 +814,15 @@
 
     /* NAVIGATION-HIDDEN */
 
+    .header__navigation {
+        min-height: 20vh;
+        max-height: 20vh;
+    }
+
     .navigation__burger-hidden {
-        top: 8.4vh;
-        height: 91.6vh;
+        top: 20vh;
+        height: 80vh;
+        margin-top: 0;
 
         width: 35%;
     }
