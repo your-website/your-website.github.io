@@ -1,0 +1,14 @@
+@import url('./__about/footer__about.css');
+@import url('./__contacts/footer__contacts.css');
+@import url('./__sevice/footer__sevice.css');
+@import url('./__link/footer__link.css');
+@import url('./__paragraph/footer__paragraph.css');
+
+.footer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+

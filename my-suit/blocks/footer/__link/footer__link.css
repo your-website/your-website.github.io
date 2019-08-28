@@ -1,0 +1,8 @@
+@import url('./_about/footer__link_about.css');
+@import url('./_contact/footer__link_contact.css');
+@import url('./_service/footer__link_service.css');
+@import url('./_email/footer__link_email.css');
+
+.footer__link {
+    text-decoration: none;
+}

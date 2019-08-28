@@ -1,0 +1,9 @@
+.write-us__container.write-us__container_three {
+    grid-area: three;
+}
+
+@media screen and (max-width: 940px) {
+    .write-us__container.write-us__container_three {
+        padding: 10px 20px;
+    }
+}

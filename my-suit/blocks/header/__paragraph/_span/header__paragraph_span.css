@@ -1,0 +1,9 @@
+.header__paragraph.header__paragraph_span {
+    text-decoration: none;
+}
+
+@media screen and (max-width: 900px) {
+    .header__paragraph.header__paragraph_span {
+        display: none;
+    }
+}

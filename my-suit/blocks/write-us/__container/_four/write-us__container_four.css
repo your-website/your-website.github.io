@@ -1,0 +1,9 @@
+.write-us__container_four {
+    grid-area: four;
+}
+
+@media screen and (max-width: 940px) {
+    .write-us__container_four {
+        padding: 10px 20px;
+    }
+}

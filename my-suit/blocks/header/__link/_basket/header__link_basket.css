@@ -1,0 +1,15 @@
+.header__link.header__link_basket {
+    display: inline-block;
+    text-decoration: underline;
+    color: #000;
+
+    padding: 0;
+    margin: 0;
+}
+
+.header__link.header__link_basket:hover {
+    color: rgb(175, 120, 61);
+    border-bottom: none;
+
+}
+

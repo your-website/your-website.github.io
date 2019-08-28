@@ -1,0 +1,25 @@
+.footer__about {
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid gray;
+    padding: 20px 50px 20px 0;
+}
+
+@media screen and (max-width: 952px) {
+    .footer__about {
+        flex-basis: 40%;
+        margin: 0 auto;
+        padding-right: 0;
+        padding: 20px 0;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .footer__about {
+        border-right: none;
+        border-bottom: 1px solid gray;
+        flex-basis: 100%;
+        align-items: center;
+        padding: 20px 0;
+    }
+}

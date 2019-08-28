@@ -1,0 +1,10 @@
+.header__fix_icon-basket {
+    display: inline-block;
+}
+
+
+@media screen and (max-width: 900px) {
+    .header__fix_icon-basket {
+        display: none;
+    }
+}

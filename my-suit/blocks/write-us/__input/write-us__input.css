@@ -1,0 +1,17 @@
+@import url('./_date/write-us__input_date.css');
+@import url('./_time/write-us__input_time.css');
+@import url('./_name/write-us__input_name.css');
+@import url('./_address/write-us__input_address.css');
+@import url('./_phone/write-us__input_phone.css');
+
+.write-us__input {
+    border: 2px solid #000;
+    height: 30px;
+    padding: 0 0 0 30px;
+    color: rgb(199, 159, 119);
+}
+
+.write-us__input::-webkit-input-placeholder {color: rgb(199, 159, 119); opacity:1;}
+.write-us__input::-moz-placeholder          {color:rgb(199, 159, 119); opacity:1;}
+.write-us__input:-moz-placeholder           {color:rgb(199, 159, 119); opacity:1;}
+.write-us__input:-ms-input-placeholder      {color:rgb(199, 159, 119); opacity:1;}

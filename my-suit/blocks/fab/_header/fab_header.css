@@ -1,0 +1,11 @@
+.fab.fab_header {
+    color: gray;
+    transition: all .5s ease-in-out;
+}
+
+.fab.fab_header:hover {
+    color: rgb(175, 120, 61);
+}
+
+
+

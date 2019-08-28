@@ -1,0 +1,19 @@
+@import url('./__form/write-us__form.css');
+@import url('./__input/write-us__input.css');
+@import url('./__label/write-us__label.css');
+@import url('./__container/write-us__container.css');
+@import url('./__button/write-us__button.css');
+
+.write-us {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    min-height: 350px;
+    background-color: rgb(238, 238, 238);
+}
+
+@media screen and (max-width: 940px) {
+    .write-us {
+        min-height: 500px;
+    }
+}
