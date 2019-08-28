@@ -1,0 +1,28 @@
+@import url('./_li/options__list_li.css');
+
+.options__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px 0;
+    grid-column: 1 / span 3;    
+}
+
+@media screen and (max-width: 1024px) {
+    .options__list {
+        grid-column: 1 / span 2;
+    }
+}
+
+@media screen and (max-width: 724px) {
+    .options__list {
+        grid-column: 1 / span 1;
+    }   
+}
+
+@media screen and (max-width: 400px) {
+    .options__list {
+        flex-direction: column;
+        align-content: center;        
+    }   
+}

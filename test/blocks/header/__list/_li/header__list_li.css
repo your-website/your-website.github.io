@@ -1,0 +1,10 @@
+.header__list_li {
+    list-style-type: none;
+    margin-left: 35px;
+}
+
+@media screen and (max-width: 968px) {
+    .header__list_li {
+        margin-bottom: 15px;
+    }
+}

@@ -1,0 +1,15 @@
+.brands__img {
+    align-self: center;
+    margin-left: 70px;
+}
+
+.brands__img:first-of-type {
+    margin-left: 0px;
+}
+
+@media screen and (max-width: 1040px) {
+    .brands__img {
+        margin-left: 0px;
+        padding-top: 25px;
+    }
+}

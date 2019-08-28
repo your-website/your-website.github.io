@@ -1,0 +1,22 @@
+.write-us__container.write-us__container_two {
+    grid-area: two;
+    max-width: 120px;
+}
+
+@media screen and (max-width: 1024px) {
+    .write-us__container.write-us__container_two {
+        justify-self: end;
+    }
+}
+
+@media screen and (max-width: 940px) {
+    .write-us__container.write-us__container_two {
+        padding: 10px 20px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .write-us__container.write-us__container_two {
+        justify-self: start;
+    }
+}

@@ -1,0 +1,10 @@
+.options__gallery-item {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    transition: all 0.5s ease-in-out;
+}
+
+.options__gallery-item:hover {
+    transform: scale(1.1);
+}

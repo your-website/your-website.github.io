@@ -1,0 +1,11 @@
+@import url('./_one/write-us__container_one.css');
+@import url('./_two/write-us__container_two.css');
+@import url('./_three/write-us__container_three.css');
+@import url('./_four/write-us__container_four.css');
+@import url('./_five/write-us__container_five.css');
+
+.write-us__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

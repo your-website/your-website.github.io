@@ -1,0 +1,12 @@
+.options__paragraph.options__paragraph_width {
+    max-width: 200px;
+    text-align: center;
+    line-height: 1.4;
+}
+
+@media screen and (max-width: 400px) {
+    .options__paragraph.options__paragraph_width {
+        max-width: 250px;
+        top: 180px;
+    }
+}

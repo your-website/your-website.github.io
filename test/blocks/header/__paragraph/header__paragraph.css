@@ -1,0 +1,10 @@
+@import url('./_location/header__paragraph_location.css');
+@import url('./_span/header__paragraph_span.css');
+
+.header__paragraph {
+    display: inline-block;
+    text-decoration: underline;
+
+    padding: 0;
+    margin: 0;
+}

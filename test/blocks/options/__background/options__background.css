@@ -1,0 +1,18 @@
+.options__background {
+    position: absolute;
+    height: 100px;
+    top: 115px;
+    left: 40px;
+    width: 245px;
+    background-color: rgb(193, 156, 114);
+    opacity: 0.9;
+}
+
+@media screen and (max-width: 400px) {
+    .options__background {
+        left: 10px;
+        width: 235px;
+        background-color: rgb(193, 156, 114);
+        opacity: 0.9;
+    }
+}
