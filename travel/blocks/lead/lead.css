@@ -1,0 +1,23 @@
+@import url('./__content-title/lead__content-title.css');
+@import url('./__content-subtitle/lead__content-subtitle.css');
+@import url('./__image/lead__image.css');
+@import url('./__paragraph/lead__paragraph.css');
+
+.lead {
+    max-width: 985px;
+
+    margin: 0 auto;
+
+    background-color: #2A2C2F;
+
+    font-family: 'Inter', sans-serif;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .lead {
+        max-width: 928px;
+        width: 100%;
+    }
+}
+

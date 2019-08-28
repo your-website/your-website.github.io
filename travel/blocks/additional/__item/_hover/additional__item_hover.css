@@ -1,0 +1,5 @@
+.additional__item_hover:hover .additional__image {
+    opacity: 0.8;
+
+    transform: scale(1.1);
+}

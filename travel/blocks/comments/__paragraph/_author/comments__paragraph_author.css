@@ -1,0 +1,14 @@
+.comments__paragraph.comments__paragraph_author {
+    margin: 0;
+
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 23px;
+}
+
+@media screen and (max-width: 800px) {
+    .comments__paragraph.comments__paragraph_author {
+        order: 2;
+        margin-top: 14px;
+    }
+}

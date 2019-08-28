@@ -1,0 +1,21 @@
+@import url('./_author/video__paragraph_author.css');
+@import url('./_time/video__paragraph_time.css');
+
+.video__paragraph {
+    font-weight: 300;
+    color: #fff;
+}
+
+@media screen and (max-width: 1024px) {
+    .video__paragraph {
+        padding-bottom: 5px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .video__paragraph {
+        padding-bottom: 0;
+        margin-top: 6px;
+        margin-right: 10px;
+    }
+}

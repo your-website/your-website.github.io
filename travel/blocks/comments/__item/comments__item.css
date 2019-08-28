@@ -1,0 +1,36 @@
+.comments__item {
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 1200px) {
+    .comments__item {
+        margin-right: 25px;
+    }
+
+    .comments__item:last-of-type {
+        margin-right: 0;
+    }
+}
+
+
+@media screen and (max-width: 800px) {
+    .comments__item {
+        align-items: center;
+        margin-right: 0;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .comments__item {
+        margin: -19px 0 0;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .comments__item {
+        margin: -27px 0 0;
+    }
+}

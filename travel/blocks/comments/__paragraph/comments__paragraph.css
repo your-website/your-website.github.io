@@ -1,0 +1,14 @@
+@import url('./_quote/comments__paragraph_quote.css');
+@import url('./_author/comments__paragraph_author.css');
+
+.comments__paragraph {
+    font-weight: 300;
+    
+    color: #fff;
+}
+
+@media screen and (max-width: 375px) {
+    .comments__paragraph {
+        padding: 0 16px;
+    }
+}

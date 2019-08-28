@@ -1,0 +1,11 @@
+@import url('./_place/additional__content-title_place.css');
+
+.additional__content-title {
+    margin: 0 auto 46px;
+
+    font-size: 72px;
+    line-height: 65px;
+    text-align: center;
+
+    color: #fff;
+}

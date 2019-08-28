@@ -1,0 +1,18 @@
+@import url('./__content-subtitle/additional__content-subtitle.css');
+@import url('./__content-title/additional__content-title.css');
+@import url('./__image/additional__image.css');
+@import url('./__paragraph/additional__paragraph.css');
+@import url('./__item/additional__item.css');
+@import url('./__container/additional__container.css');
+
+.additional {
+    width: 1184px;
+
+    margin: 102px auto 0;
+
+    overflow: hidden;
+
+    background-color: #2A2C2F;
+
+    font-family: 'Inter', sans-serif;
+}

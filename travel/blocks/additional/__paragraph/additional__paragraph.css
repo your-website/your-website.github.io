@@ -1,0 +1,13 @@
+.additional__paragraph {
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+
+    margin: 0;
+
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+
+    color: #fff;
+}

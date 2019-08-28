@@ -1,0 +1,14 @@
+@import url('./__content-title/emblem__content-title.css');
+@import url('./__container/emblem__container.css');
+@import url('./__item/emblem__item.css');
+@import url('./__image/emblem__image.css');
+@import url('./__container-title/emblem__container-title.css');
+
+.emblem {
+    width: 1184px;
+    margin: 82px auto 0;
+
+    background-color: #2A2C2F;
+
+    font-family: 'Inter', sans-serif;
+}
