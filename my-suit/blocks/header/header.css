@@ -12,10 +12,10 @@
     justify-content: center;
     background-color: rgb(31, 31, 31);
     min-height: 70px;
-}
+};
 
 @media screen and (max-width: 920px) {
     .header {
         justify-content: space-around;
     }
-}
+};
