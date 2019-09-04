@@ -1,0 +1,13 @@
+.video__discription {
+    position: absolute;
+
+    bottom: 30px;
+    left: 30px;
+}
+
+@media screen and (max-width: 320px) {
+    .video__discription {
+        bottom: 16px;
+        left: 16px;
+    }
+}

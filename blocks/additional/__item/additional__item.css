@@ -1,0 +1,7 @@
+@import url('./_hover/additional__item_hover.css');
+
+.additional__item {
+    position: relative;
+
+    overflow: hidden;
+}

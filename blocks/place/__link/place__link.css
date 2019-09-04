@@ -1,0 +1,19 @@
+@import url('./_hover/place__link_hover.css');
+
+.place__link {
+    position: relative;
+    display: block;
+
+    transition: opacity 0.5s ease;
+
+    margin: 6px 0 0;
+
+    text-decoration: underline;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 200;
+    letter-spacing: 0.4px;
+
+    color: #fff;
+}
+

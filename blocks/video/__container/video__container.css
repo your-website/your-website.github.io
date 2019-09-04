@@ -1,0 +1,35 @@
+.video__container {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 1200px) {
+    .video__container  {
+        padding: 0 48px;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    .video__container  {
+        padding: 0 24px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .video__container  {
+        max-width: 928px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .video__container  {
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .video__container  {
+        flex-direction: column;
+        align-items: center;
+    }
+}

@@ -1,0 +1,10 @@
+.place__container {
+    display: flex;
+    max-width: 100%;
+}
+
+@media screen and (max-width: 700px) {
+    .place__container {
+        flex-direction: column;
+    }
+}

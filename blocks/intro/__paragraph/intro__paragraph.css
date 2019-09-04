@@ -1,0 +1,40 @@
+.intro .intro__paragraph {
+    max-width: 695px;
+
+    display: inline-block;
+
+    margin: 0 0 20px;
+
+    font-size: 14px;
+    line-height: 23px;
+    font-weight: 300;
+    letter-spacing: 0.1px;
+
+    color: #fff;
+}
+
+@media screen and (max-width: 1024px) {
+    .intro .intro__paragraph {
+        margin: 0 0 27px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .intro .intro__paragraph {
+        width: 100%;
+        line-height: 24px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .intro .intro__paragraph {
+        font-size: 16px;
+        line-height: 27px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .intro .intro__paragraph {
+        margin: 0 0 33px;
+    }
+}

@@ -1,0 +1,13 @@
+.comments__image {
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+}
+
+@media screen and (max-width: 800px) {
+    .comments__image {
+        order: 1;
+        position: relative;
+    }
+}

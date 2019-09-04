@@ -1,0 +1,13 @@
+@import url('./_link/barentsburg__paragraph_link.css');
+
+.barentsburg__paragraph {
+    width: 380px;
+
+    margin: 0;
+
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 300;
+
+    color: #FFFFFF;
+}

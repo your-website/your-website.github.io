@@ -1,0 +1,33 @@
+.comments__paragraph_quote {
+    max-width: 382px;
+    
+    margin: 127px 0 14px;
+
+    font-weight: 200;
+    font-size: 14px;
+    line-height: 23px;
+}
+
+@media screen and (max-width: 1280px) {
+    .comments__paragraph_quote {
+        margin: 136px 0 14px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .comments__paragraph_quote {
+        max-width: 296px;
+        margin: 136px 0 25px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .comments__paragraph_quote {
+        max-width: 382px;
+        order: 3;
+        margin: 18px 0 75px;
+
+        font-size: 16px;
+        line-height: 23px;
+    }
+}

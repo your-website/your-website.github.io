@@ -1,0 +1,7 @@
+.additional__image {
+    transition: all 1s ease;
+
+    opacity: 0.4;
+
+    border-radius: 5px;
+}

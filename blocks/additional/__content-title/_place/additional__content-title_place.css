@@ -1,0 +1,11 @@
+.additional__content-title.additional__content-title_place {
+    position: absolute;
+    top: 30px;
+    left: 18px;
+
+    margin: 0;
+
+    text-align: left;
+    font-size: 27px;
+    line-height: 29px;
+}

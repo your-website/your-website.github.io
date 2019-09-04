@@ -1,0 +1,42 @@
+@import url('./_hover/header__link_hover.css');
+@import url('./_active/header__link_active.css');
+
+.header__link {
+    margin: 17px 0 12px;
+
+    display: block;
+    text-decoration: none;
+    color: white;
+    transition: opacity 0.5s ease;
+
+    font-size: 24px;
+    line-height: 23px;
+}
+
+.header .header__link:first-of-type {
+    margin-left: auto;
+}
+
+.header .header__link:last-of-type {
+    margin-left: 18px;
+}
+
+
+@media screen and (max-width: 375px) {
+    .header__link {
+        margin: 18px 0 12px;
+    
+        font-size: 18px;
+        line-height: 40px;
+    }
+
+    .header .header__link:last-of-type {
+        margin-left: 25px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .header .header__link:last-of-type {
+        margin-left: 19px;
+    }
+}
