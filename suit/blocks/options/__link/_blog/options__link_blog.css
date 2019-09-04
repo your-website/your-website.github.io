@@ -1,0 +1,37 @@
+.options__link.options__link_blog {
+    position: absolute;
+    top: 20px;
+    right: -7px;
+
+    transition: all .2s ease-in-out;
+
+    display: block;
+    height: 20px;
+    width: 40px;
+
+    font-size: 17px;
+    letter-spacing: 1.3px;
+    font-style: italic;
+
+    background-color: rgb(185, 131, 72);
+
+    color: #fff;
+}
+
+.options__link.options__link_blog::after {
+    content: "";
+    position: absolute;
+    bottom: -3px;
+    right: 0;
+    width: 0; 
+    height: 0;
+    border-bottom: 12px solid  rgb(185, 131, 72);
+    border-left: 12px solid transparent;
+    z-index: -1;
+}
+
+.options__link.options__link_blog:hover {
+    background-color: rgb(228, 157, 82);
+
+    color: #000;
+}

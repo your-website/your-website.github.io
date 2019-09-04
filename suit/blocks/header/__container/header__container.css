@@ -1,0 +1,9 @@
+.header__container {
+    
+}
+
+@media screen and (max-width: 450px) {
+    .header__container {
+        display: none;
+    }
+}

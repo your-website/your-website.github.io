@@ -1,0 +1,15 @@
+@import url('./__content-title/fashion__content-title.css');
+@import url('./__image/fashion__image.css');
+@import url('./__container-opacity/fashion__container-opacity.css');
+.fashion {
+    position: relative;
+    min-height: 450px;
+
+    background-image: url('./header_bg.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    justify-content: center;
+}

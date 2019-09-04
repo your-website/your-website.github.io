@@ -1,0 +1,10 @@
+@import url('./__icon/fix__icon.css');
+@import url('./__paragraph/fix__paragraph.css');
+
+.fix {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+}

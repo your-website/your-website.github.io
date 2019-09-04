@@ -1,0 +1,16 @@
+@import url('./_strong/options__paragraph_strong.css');
+@import url('./_about/options__paragraph_about.css');
+@import url('./_and/options__paragraph_and.css');
+@import url('./_border/options__paragraph_border.css');
+@import url('./_strong-1/options__paragraph_strong-1.css');
+@import url('./_width/options__paragraph_width.css');
+@import url('./_date/options__paragraph_date.css');
+
+.options__paragraph {
+    position: absolute;
+    top: 195px;
+    max-width: 328px;
+    font-size: 14px;
+
+    color: #fff;
+}

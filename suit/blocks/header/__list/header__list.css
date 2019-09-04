@@ -1,0 +1,19 @@
+@import url('./_li/header__list_li.css');
+
+
+.header__list {
+    display: flex;
+    align-self: center;
+}
+
+@media screen and (max-width: 968px) {
+    .header__list {
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 920px) {
+    .header__list {
+        display: none;
+    }
+}

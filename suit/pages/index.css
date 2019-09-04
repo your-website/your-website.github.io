@@ -1,0 +1,11 @@
+@import url('../vendor/normalize.css');
+@import url('../blocks/header/header.css');
+@import url('../blocks/fashion/fashion.css');
+@import url('../blocks/options/options.css');
+@import url('../blocks/sew-suit/sew-suit.css');
+@import url('../blocks/brands/brands.css');
+@import url('../blocks/callBack/callBack.css');
+@import url('../blocks/write-us/write-us.css');
+@import url('../blocks/footer/footer.css');
+@import url('../blocks/span/span.css');
+@import url('../blocks/fab/fab.css');

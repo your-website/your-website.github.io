@@ -1,0 +1,8 @@
+.footer__link_about {
+    color: rgb(175, 120, 61);
+    line-height: 2;
+}
+
+.footer__link_about:hover {
+    color: #000;
+}

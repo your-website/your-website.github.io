@@ -1,0 +1,22 @@
+@import url('./__img/brands__img.css');
+
+.brands {
+    background-image: url('./main__2_bg-marks.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    min-height: 150px;
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width: 1040px) {
+    .brands {
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 25px;
+    }
+}

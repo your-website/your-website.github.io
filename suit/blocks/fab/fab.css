@@ -1,0 +1,8 @@
+@import url('./_header/fab_header.css');
+
+.fab {
+    font-size: 25px;
+    color: rgb(175, 120, 61);
+    transition: all .5s ease-in-out;
+
+}

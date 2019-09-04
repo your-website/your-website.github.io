@@ -1,0 +1,33 @@
+.options__paragraph.options__paragraph_date {
+    padding: 13px 0;
+}
+
+.options__paragraph.options__paragraph_date::before {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: 0px;
+    left: -25px;
+    width: 170px;
+    height: 1px;
+    background: #fff;
+    margin: 0 auto;
+}
+
+.options__paragraph.options__paragraph_date:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: -25px;
+    width: 170px;
+    height: 1px;
+    background: #fff;
+}
+
+
+@media screen and (max-width: 400px) {
+    .options__paragraph.options__paragraph_date {
+        top: 180px;
+    }
+}

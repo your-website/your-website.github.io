@@ -1,0 +1,26 @@
+.options__paragraph.options__paragraph_border {
+    position: absolute;
+    top: 255px;
+    cursor: pointer;
+
+    border: 2px solid #fff;
+    padding: 10px;
+
+    font-weight: bold;
+    letter-spacing: 1px;
+
+    transition: all .5s ease-in-out;
+}
+
+.options__paragraph.options__paragraph_border:hover {
+    background-color: rgb(193, 156, 114);
+    color: #000;
+    border: 2px solid #000;
+}
+
+@media screen and (max-width: 400px) {
+    .options__paragraph.options__paragraph_border {
+        top: 10px;
+        padding: 10px;
+    }
+}

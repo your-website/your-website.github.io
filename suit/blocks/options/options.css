@@ -1,0 +1,35 @@
+@import url('./__list/options__list.css');
+@import url('./__link/options__link.css');
+@import url('./__gallery/options__gallery.css');
+@import url('./__image/options__image.css');
+@import url('./__content-title/options__content-title.css');
+@import url('./__gallery-item/options__gallery-item.css');
+@import url('./__paragraph/options__paragraph.css');
+@import url('./__background/options__background.css');
+@import url('./__gallery-item-no-animation/options__gallery-item-no-animation.css');
+
+.options {
+    display: grid;
+    grid-template-columns: 328px 328px 328px;
+    justify-content: center;
+    grid-gap: 10px;
+}
+
+@media screen and (max-width: 1050px) {
+    .options {
+        grid-template-columns: 328px 328px;
+    }
+}
+
+@media screen and (max-width: 724px) {
+    .options {
+        grid-template-columns: minmax(auto, 328px);
+        grid-auto-columns: 0;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .options {
+        justify-items: center;
+    }
+}

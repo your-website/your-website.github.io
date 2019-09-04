@@ -1,0 +1,13 @@
+@import url('./_blog/options__link_blog.css');
+
+.options__link {
+    text-decoration: none;
+    color: #000;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.options__link:hover {
+    border: 2px solid rgb(185, 131, 72);
+    color: rgb(185, 131, 72);
+}

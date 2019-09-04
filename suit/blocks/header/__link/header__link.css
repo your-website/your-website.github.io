@@ -1,0 +1,15 @@
+@import url('./_basket/header__link_basket.css');
+@import url('./_user/header__link_user.css');
+@import url('./_phone/header__link_phone.css');
+
+.header__link {
+    text-decoration: none;
+    color: #fff;
+    padding-bottom: 3px;
+    transition: opacity .5s ease-in-out;
+}
+
+.header__link:hover {
+    border-bottom: 1px dashed rgb(152, 152, 152);
+    opacity: 0.7;
+}

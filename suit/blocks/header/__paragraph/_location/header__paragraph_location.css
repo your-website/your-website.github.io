@@ -1,0 +1,8 @@
+.header__paragraph.header__paragraph_location {
+}
+
+@media screen and (max-width: 900px) {
+    .header__paragraph.header__paragraph_location {
+        display: none;
+    }
+}

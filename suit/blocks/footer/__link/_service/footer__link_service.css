@@ -1,0 +1,11 @@
+.footer__link.footer__link_service {
+    color: #000;
+    position: relative;
+    text-decoration: underline;
+    padding-bottom: 10px;
+}
+
+.footer__link.footer__link_service:hover {
+    color: rgb(175, 120, 61);
+}
+

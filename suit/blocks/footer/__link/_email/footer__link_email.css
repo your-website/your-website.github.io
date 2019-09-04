@@ -1,0 +1,8 @@
+.footer__link_email {
+    color: rgb(175, 120, 61);
+    text-decoration: underline;
+}
+
+.footer__link_email:hover {
+    color: rgb(110, 70, 27);
+}

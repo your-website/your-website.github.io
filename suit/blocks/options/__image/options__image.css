@@ -1,0 +1,12 @@
+.options__image {
+    max-width: 328px;
+}
+
+@media screen and (max-width: 400px) {
+    .options__image {
+        max-width: 250px;
+        margin: auto;
+    }
+}
+
+

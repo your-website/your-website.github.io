@@ -1,0 +1,28 @@
+@import url('./_basket/header__fix_basket.css');
+@import url('./_location/header__fix_location.css');
+@import url('./_phone/header__fix_phone.css');
+@import url('./_user/header__fix_user.css');
+@import url('./_icon-basket/header__fix_icon-basket.css');
+
+.header__fix {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    min-height: 50px;
+    padding: 0 150px;
+}
+
+@media screen and (max-width: 800px) {
+    .header__fix {
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .header__fix {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}

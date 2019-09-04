@@ -1,0 +1,8 @@
+.write-us__input.write-us__input_address {
+    background-image: url('location.png');
+    background-position: left;
+    background-position-x: 7px;
+    background-repeat: no-repeat;
+
+    height: 34px;
+}

@@ -1,0 +1,14 @@
+@import url('./__content-title/callBack__content-title.css');
+@import url('./__paragraph/callBack__paragraph.css');
+
+.callBack {
+    background-image: url('./main__2_bg-lines.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 350px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

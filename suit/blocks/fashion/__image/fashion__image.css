@@ -1,0 +1,25 @@
+.fashion__image {
+    position: absolute;
+    bottom: 0;
+    right: 24%;
+    z-index: 1;
+}
+
+@media screen and (max-width: 1500px) {
+    .fashion__image {
+        right: 10%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .fashion__image {
+        right: 10px;
+    }
+}
+
+
+@media screen and (max-width: 640px) {
+    .fashion__image {
+        opacity: 0.7;
+    }
+}

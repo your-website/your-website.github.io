@@ -1,0 +1,15 @@
+.options__paragraph.options__paragraph_strong {
+        position: absolute;
+        top: 155px;
+
+        font-weight: normal;
+        font-size: 19px;
+
+        color: #fff;
+}
+
+@media screen and (max-width: 400px) {
+        .options__paragraph.options__paragraph_strong {
+                top: 145px;
+        }
+}
