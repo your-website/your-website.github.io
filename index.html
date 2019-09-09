@@ -20,7 +20,8 @@
                 <h3>Форма регистрации</h3>
                 <fieldset class="form__fieldset">
                     <div class="form__field">
-                        <input class="form__input" type="text" name="name" pattern="" placeholder="Имя" required />
+                        <input class="form__input" type="text" name="name" pattern="регулярно" placeholder="Имя" minlength="2" maxlength="20" required />
+                        <span class="form__error">введите число</span>
                     </div>
                     <div class="form__field">
                         <input class="form__input" type="email" name="name" pattern="" placeholder="E-Mail" />
@@ -38,6 +39,8 @@
                 </fieldset>
             </form>
         </div>
-    </main>     
+    </main>
+    
+    <script src="script.js"></script>
 </body>
 </html>
