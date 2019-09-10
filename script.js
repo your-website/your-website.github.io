@@ -5,25 +5,52 @@ let formTel = form.querySelector('input[type=tel]');
 let formUrl = form.querySelector('input[type=url]');
 let formSubmit = form.querySelector('input[type=submit]');
 
-
 class Validate {
     constructor() {
+        this.say = function(pattern, str, errorField, errorValue) {
+            if (str.value.match(pattern) === null) {
+                document.querySelector(`${errorField}`).textContent = errorValue;
+            } else if (str.value.match(pattern)[0].length === str.length) {
+                document.querySelector(`${errorField}`).textContent = "";
+            } else document.querySelector(`${errorField}`).textContent = errorValue;
+        }
     }
 
-    validateText(pattern) {
-
+    validateText(pattern, str) {
+        console.log(pattern);
+        let reg = pattern;
+        let val = str;
+        let errorField = '.form__error_text';
+        let errorValue = "123Введите имя c заглавной буквы. Например Роман. Анна-Мария";
+        this.say(reg, val, errorField, errorValue);
     }
 
-    validateEmail(pattern) {
-
+    validateEmail(pattern, str) {
+        console.log(pattern);
+        let reg = pattern;
+        let val = str;
+        let errorField = '.form__error_email';
+        let errorValue = "e-mail в формате: sega@yandex.ru";
+        this.say(reg, val, errorField, errorValue);
     }
 
-    validateTel(pattern) {
-
+    validateTel(pattern, str) {
+        let reg = pattern;
+        let val = str;
+        let errorField = '.form__error_tel';
+        let errorValue = "телефон в формате: +7 (123) 456-78-90";
+        this.say(reg, val, errorField, errorValue);
     }
 
-    validateUrl(pattern) {
+    validateUrl(pattern, str) {
+        console.log(pattern);
+        console.log(str.value);
 
+        let reg = pattern;
+        let val = str;
+        let errorField = '.form__error_url';
+        let errorValue = "URL в формате: http://mysite.ru";
+        this.say(reg, val, errorField, errorValue);
     }
 
     validateSubmit(pattern) {
@@ -35,29 +62,17 @@ const validate = new Validate();
 
 // валидация popup
 formText.addEventListener('input', function (event) {
-    let regex = /^[А-ЯЁ]{1}[a-я]*\-?([А-ЯЁ{1}][a-я]*)?/g;
-    let str = formText.value;
-    console.log(str.match(regex));
-    console.log(formText.value);
+    validate.validateText(formText.pattern, event.target);
 });
 
 formEmail.addEventListener('input', function (event) {
-    let regex = /\w{1,}(\-?)*@[a-z]+\.{1}[a-z]{2,}/g;
-    let str = formEmail.value;
-    console.log(str.match(regex));
-    console.log(formEmail.value);
+    validate.validateEmail(formEmail.pattern, event.target);
 });
 
 formTel.addEventListener('input', function (event) {
-    let regex = /(8{1}\d{10}|\+7\d{10}|\+7\s\d{3}\-\d{3}\-\d{2}\-\d{2}|\+7\(\d{3}\)\s\d{3}\-\d{2}\-\d{2})|\+7\(\d{3}\)\d{3}\-\d{2}\-\d{2}/gi;
-    let str = formTel.value;
-    console.log(str.match(regex));
-    console.log(formTel.value);
+    validate.validateTel(formTel.pattern, event.target);
 });
 
 formUrl.addEventListener('input', function (event) {
-    let regex = /^(http\:\/\/|https\:\/\/)(\w{2,}\.)?(\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}|\w+(\w|\-)*)(\:\d{2,5})?(\/\w*)?\.[a-z]{2,}(\/|\w|\-|\%|\?|\=)*(\#|\.\w{2,})?/gi;
-    let str = formUrl.value;
-    console.log(str.match(regex));
-    console.log(formUrl.value);
+    validate.validateUrl(formUrl.pattern, event.target);
 });
