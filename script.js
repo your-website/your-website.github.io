@@ -3,7 +3,12 @@ let formText = form.querySelector('input[type=text]');
 let formEmail = form.querySelector('input[type=email]');
 let formTel = form.querySelector('input[type=tel]');
 let formUrl = form.querySelector('input[type=url]');
-let formSubmit = form.querySelector('input[type=submit]');
+
+let bulleanText = false;
+let bulleanEmail = false;
+let bulleanTel = false;
+let bulleanUrl = false;
+
 
 class Validate {
     constructor() {
@@ -21,7 +26,7 @@ class Validate {
         let reg = pattern;
         let val = str;
         let errorField = '.form__error_text';
-        let errorValue = "123Введите имя c заглавной буквы. Например Роман. Анна-Мария";
+        let errorValue = "Введите имя c заглавной буквы. Например Роман. Анна-Мария";
         this.say(reg, val, errorField, errorValue);
     }
 
@@ -58,21 +63,43 @@ class Validate {
     }
 }
 
+function sub() {
+    if (formText.checkValidity() && formEmail.checkValidity() && formTel.checkValidity() && formUrl.checkValidity()) {
+        document.querySelector('.form__button').setAttribute('disabled', false);
+        document.querySelector('.form__button').style.color = "#000";
+        document.querySelector('.form__button').style.backgroundColor = "#ffdb4d";
+    } else {
+        document.querySelector('.form__button').setAttribute('disabled', true);
+        document.querySelector('.form__button').style.color = "rgba(1, 1, 1, .2)";
+        document.querySelector('.form__button').style.backgroundColor = "#b3b3b3";
+    }
+}
+
 const validate = new Validate();
 
-// валидация popup
 formText.addEventListener('input', function (event) {
     validate.validateText(formText.pattern, event.target);
+    sub();
 });
 
 formEmail.addEventListener('input', function (event) {
     validate.validateEmail(formEmail.pattern, event.target);
+    sub();
 });
 
 formTel.addEventListener('input', function (event) {
     validate.validateTel(formTel.pattern, event.target);
+    sub();
 });
 
 formUrl.addEventListener('input', function (event) {
     validate.validateUrl(formUrl.pattern, event.target);
+    sub();
 });
+
+form.addEventListener('submit', function (event) {
+    event.preventDefault();
+});
+
+
+    
